@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chronos Reckoning</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg"></div>
+
+    <div class="container">
+      <span class='title'>Chronos Reckoning System</span>
+      <div class="inputs">
+        <input type="text" class="day" placeholder="Day"/>
+
+        <select class="month">
+          <option selected hidden>Choose month</option>
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+          <option value="september">September</option>
+          <option value="october">October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+        </select>
+
+        <input type="text" class="year" placeholder="Year"/>
+      </div>
+
+        <button class="getDay">
+          Get day of week
+        </button>
+
+      <span class="dayOfWeek"></span>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
